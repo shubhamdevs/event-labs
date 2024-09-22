@@ -9,3 +9,31 @@ html, body {
     height: 100%;
     width: 100%;
 }
+header {
+    margin-top: 8px;
+    margin-bottom: 60px;
+    margin-left:10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+}
+
+.cheking-wrapper {
+    display: flex;
+    
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.hero-section {
+    width: fit-content;
+    height: 700px;
+    margin: 0 auto;
+}
+
