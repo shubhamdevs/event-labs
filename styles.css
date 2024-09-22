@@ -22,13 +22,29 @@ p {
     margin: 0;
 }
 
+hr {
+    color: hsl(345deg, 1%, 65%);
+    width: 1000px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
 .cheking-wrapper {
     display: flex;
-    
+    color: hsl(345deg, 1%, 65%);
     flex-direction:row;
     justify-content: flex-end;
     align-items: flex-end;
     gap: 20px;
+}
+
+.cheking-wrapper a {
+    text-decoration: none;
+    color: hsl(345deg, 1%, 65%);
 }
 
 .hero-section {
