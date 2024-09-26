@@ -8,6 +8,7 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color: hsl(0, 0%, 53%);
 }
 header {
     margin-top: 8px;
@@ -47,9 +48,39 @@ footer {
     color: hsl(345deg, 1%, 65%);
 }
 
+.sign-in-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    background-color:hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 87%);
+    font-size: 14px;
+}
+
+.sign-in-btn:hover {
+    background-color: hsl(0, 0%, 30%);
+    cursor: pointer;
+}
+
 .hero-section {
     width: fit-content;
     height: 700px;
     margin: 0 auto;
+}
+
+.create-event-btn {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    font-size: medium;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.create-event-btn:hover {
+    background-color: hsl(0, 0%, 90%);
+    cursor: pointer;
 }
 
