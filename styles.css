@@ -8,7 +8,9 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: hsl(0, 0%, 53%);
+    background-image: linear-gradient(60deg, hsl(231, 31%, 34%), hsl(24, 87%, 63%));
+    background-size: cover;
+    
 }
 header {
     margin-top: 8px;
@@ -36,16 +38,16 @@ footer {
 
 .cheking-wrapper {
     display: flex;
-    color: hsl(345deg, 1%, 65%);
+    color: hsl(0, 0%, 93%);
     flex-direction:row;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: baseline;
     gap: 20px;
 }
 
 .cheking-wrapper a {
     text-decoration: none;
-    color: hsl(345deg, 1%, 65%);
+    color: hsl(0, 0%, 93%);
 }
 
 .sign-in-btn {
@@ -53,13 +55,13 @@ footer {
     border: none;
     border-radius: 25px;
     text-align: center;
-    background-color:hsl(0, 0%, 50%);
-    color: hsl(0, 0%, 87%);
+    background-color:hsl(0, 26%, 81%);
+    color: hsl(0, 43%, 40%);
     font-size: 14px;
 }
 
 .sign-in-btn:hover {
-    background-color: hsl(0, 0%, 30%);
+    background-color: hsl(27, 77%, 71%);
     cursor: pointer;
 }
 
